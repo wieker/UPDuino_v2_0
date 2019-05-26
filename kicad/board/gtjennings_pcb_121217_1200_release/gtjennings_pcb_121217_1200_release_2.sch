@@ -1,0 +1,694 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr User 17401 15201
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4050 12250 4050 12450
+Text GLabel 4050 12250 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	4950 12350 4950 12450
+Text GLabel 4950 12350 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	13600 5200 13300 5200
+Text GLabel 13300 5200 0    50   BiDi ~ 0
+GND
+Wire Wire Line
+	4050 13550 4050 13750
+Text GLabel 4050 13550 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	4950 13650 4950 13750
+Text GLabel 4950 13650 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	3000 13350 3250 13350
+Wire Wire Line
+	3250 13350 3250 13550
+Text GLabel 3000 13350 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	15500 7800 15100 7800
+Text GLabel 15100 7800 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	4900 4200 4650 4200
+Text GLabel 4650 4200 0    50   BiDi ~ 0
+ICE_SS
+Wire Wire Line
+	5250 6050 5650 6050
+Text GLabel 5650 6050 2    50   BiDi ~ 0
+ICE_MOSI
+Wire Wire Line
+	5900 2950 5900 3800
+Wire Wire Line
+	5900 3800 6150 3800
+Wire Wire Line
+	5900 3800 4850 3800
+Text GLabel 4850 3800 0    50   BiDi ~ 0
+ICE_SCK
+Connection ~ 5900 3800
+Wire Wire Line
+	7850 2900 7850 2100
+Wire Wire Line
+	7850 2100 6650 2100
+Wire Wire Line
+	6650 2100 5900 2100
+Wire Wire Line
+	5900 2100 5100 2100
+Wire Wire Line
+	8150 2900 8150 2100
+Wire Wire Line
+	8150 2100 7850 2100
+Wire Wire Line
+	8400 2900 8400 2100
+Wire Wire Line
+	8400 2100 8150 2100
+Wire Wire Line
+	6650 3200 6650 2100
+Wire Wire Line
+	5900 2550 5900 2100
+Wire Wire Line
+	5100 2100 5100 1950
+Text GLabel 5100 1950 2    50   BiDi ~ 0
++3.3V
+Connection ~ 5900 2100
+Connection ~ 6650 2100
+Connection ~ 7850 2100
+Connection ~ 8150 2100
+Wire Wire Line
+	13600 5100 13300 5100
+Text GLabel 13300 5100 2    50   BiDi ~ 0
++3.3V
+Wire Wire Line
+	3750 11950 3250 11950
+Wire Wire Line
+	3250 11950 3250 11650
+Text GLabel 3250 11650 2    70   BiDi ~ 0
++3.3V
+Wire Wire Line
+	4350 13250 4450 13250
+Wire Wire Line
+	4450 13250 4950 13250
+Wire Wire Line
+	4950 13250 4950 12950
+Wire Wire Line
+	4350 13350 4450 13350
+Wire Wire Line
+	4450 13350 4450 13250
+Wire Wire Line
+	4950 13350 4950 13250
+Text GLabel 4950 12950 2    70   BiDi ~ 0
++3.3V
+Connection ~ 4450 13250
+Connection ~ 4950 13250
+Wire Wire Line
+	13600 5600 13300 5600
+Text GLabel 13300 5600 0    50   BiDi ~ 0
+IOT_38B
+Wire Wire Line
+	13600 5500 13300 5500
+Text GLabel 13300 5500 0    50   BiDi ~ 0
+IOT_39A
+Wire Wire Line
+	13600 5700 13300 5700
+Text GLabel 13300 5700 0    50   BiDi ~ 0
+IOT_43A
+Wire Wire Line
+	13600 5900 13300 5900
+Text GLabel 13300 5900 0    50   BiDi ~ 0
+IOT_42B
+Wire Wire Line
+	13600 5300 13300 5300
+Text GLabel 13300 5300 0    50   BiDi ~ 0
+IOT_37A
+Wire Wire Line
+	13600 5400 13300 5400
+Text GLabel 13300 5400 0    50   BiDi ~ 0
+IOT_36B
+Wire Wire Line
+	13600 6100 13300 6100
+Text GLabel 13300 6100 0    50   BiDi ~ 0
+IOT_44B
+Wire Wire Line
+	13600 6200 13300 6200
+Text GLabel 13300 6200 0    50   BiDi ~ 0
+IOT_49A
+Wire Wire Line
+	15400 6400 15050 6400
+Text GLabel 15050 6400 0    50   BiDi ~ 0
+IOB_8A
+Wire Wire Line
+	15400 6500 15050 6500
+Text GLabel 15050 6500 0    50   BiDi ~ 0
+IOB_9B
+Wire Wire Line
+	15400 6600 15050 6600
+Text GLabel 15050 6600 0    50   BiDi ~ 0
+IOB_4A
+Wire Wire Line
+	15400 6700 15050 6700
+Text GLabel 15050 6700 0    50   BiDi ~ 0
+IOB_5B
+Wire Wire Line
+	15400 6800 15050 6800
+Text GLabel 15050 6800 0    50   BiDi ~ 0
+IOB_2A
+Wire Wire Line
+	15400 6900 15050 6900
+Text GLabel 15050 6900 0    50   BiDi ~ 0
+IOB_0A
+Wire Wire Line
+	15400 7000 15050 7000
+Text GLabel 15050 7000 0    50   BiDi ~ 0
+IOB_6A
+Wire Wire Line
+	7150 3600 7500 3600
+Text GLabel 7250 3600 2    50   BiDi ~ 0
+FLASH_MISO
+Wire Wire Line
+	4850 6050 4500 6050
+Text GLabel 4500 6050 2    50   BiDi ~ 0
+FLASH_MISO
+Wire Wire Line
+	6150 3600 4850 3600
+Text GLabel 4850 3600 0    50   BiDi ~ 0
+FLASH_MOSI
+Wire Wire Line
+	4850 6250 4500 6250
+Text GLabel 4500 6250 2    50   BiDi ~ 0
+FLASH_MOSI
+Wire Wire Line
+	7150 4200 7850 4200
+Wire Wire Line
+	7850 4200 7850 3300
+Wire Wire Line
+	6150 4000 5900 4000
+Wire Wire Line
+	5900 4000 5900 4850
+Wire Wire Line
+	5900 4850 8150 4850
+Wire Wire Line
+	8150 4850 8150 3300
+Wire Wire Line
+	6150 4200 5800 4200
+Wire Wire Line
+	5800 4200 5800 4950
+Wire Wire Line
+	5800 4950 8400 4950
+Wire Wire Line
+	8400 4950 8400 3300
+Wire Wire Line
+	5300 4200 5800 4200
+Connection ~ 5800 4200
+Wire Wire Line
+	4350 11950 4450 11950
+Wire Wire Line
+	4450 11950 4950 11950
+Wire Wire Line
+	4950 11950 4950 11650
+Wire Wire Line
+	4350 12050 4450 12050
+Wire Wire Line
+	4450 12050 4450 11950
+Wire Wire Line
+	4950 12050 4950 11950
+Text GLabel 4950 11650 2    70   BiDi ~ 0
++1.2V
+Connection ~ 4450 11950
+Connection ~ 4950 11950
+Wire Wire Line
+	15400 5500 14950 5500
+Text GLabel 14950 5500 0    50   BiDi ~ 0
+IOB_22A
+Wire Wire Line
+	15400 5600 14950 5600
+Text GLabel 14950 5600 0    50   BiDi ~ 0
+IOB_23B
+Wire Wire Line
+	15400 5700 14950 5700
+Text GLabel 14950 5700 0    50   BiDi ~ 0
+IOB_24A
+Wire Wire Line
+	15400 5800 14950 5800
+Text GLabel 14950 5800 0    50   BiDi ~ 0
+IOB_29B
+Wire Wire Line
+	15400 5900 14950 5900
+Text GLabel 14950 5900 0    50   BiDi ~ 0
+IOB_31B
+Wire Wire Line
+	15400 6000 14950 6000
+Text GLabel 14950 6000 0    50   BiDi ~ 0
+IOB_20A
+Wire Wire Line
+	15400 6100 15050 6100
+Text GLabel 15050 6100 0    50   BiDi ~ 0
+IOB_16A
+Wire Wire Line
+	15400 6200 15050 6200
+Text GLabel 15050 6200 0    50   BiDi ~ 0
+IOB_13B
+Wire Wire Line
+	13600 6000 13300 6000
+Text GLabel 13300 6000 0    50   BiDi ~ 0
+IOT_45A_G1
+Wire Wire Line
+	13600 6300 13300 6300
+Text GLabel 13300 6300 0    50   BiDi ~ 0
+IOT_48B
+Wire Wire Line
+	13600 6400 13300 6400
+Text GLabel 13300 6400 0    50   BiDi ~ 0
+IOT_51A
+Wire Wire Line
+	13600 6500 13300 6500
+Text GLabel 13300 6500 0    50   BiDi ~ 0
+IOT_50B
+Wire Wire Line
+	13600 6600 13300 6600
+Text GLabel 13300 6600 0    50   BiDi ~ 0
+IOT_41A
+Wire Wire Line
+	13600 5800 13300 5800
+Text GLabel 13300 5800 0    50   BiDi ~ 0
+IOT_46B_G0
+Wire Wire Line
+	5250 6250 5650 6250
+Text GLabel 5650 6250 2    50   BiDi ~ 0
+ICE_MISO
+Wire Wire Line
+	15400 6300 15050 6300
+Text GLabel 15050 6300 0    50   BiDi ~ 0
+IOB_3B_G6
+Wire Wire Line
+	3750 13250 3250 13250
+Wire Wire Line
+	3250 13250 3250 12950
+Wire Wire Line
+	3000 13250 3250 13250
+Text GLabel 3250 12950 2    70   BiDi ~ 0
++5V
+Connection ~ 3250 13250
+Wire Wire Line
+	15500 7600 15100 7600
+Text GLabel 15100 7600 2    70   BiDi ~ 0
+OSC_OUT
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:N25Q032A13ESC40F-ND U3
+U 1 0 2BCD79B19A04CEE8
+P 6650 3900
+AR Path="/2BCD79B19A04CEE8" Ref="U3"  Part="1" 
+AR Path="/5CEA53F7/2BCD79B19A04CEE8" Ref="U3"  Part="1" 
+F 0 "U3" H 6650 3900 50  0001 C CNN
+F 1 "N25Q032A13ESC40F-ND" H 6650 3900 50  0001 C CNN
+F 2 "gtjennings_pcb_121217_1200_release:SO8" H 6650 3900 50  0001 C CNN
+F 3 "" H 6650 3900 50  0001 C CNN
+	1    6650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:RESISTOR0603-RES R13
+U 1 0 6482207A2BD16012
+P 7850 3100
+AR Path="/6482207A2BD16012" Ref="R13"  Part="1" 
+AR Path="/5CEA53F7/6482207A2BD16012" Ref="R13"  Part="1" 
+F 0 "R13" H 7700 3159 59  0000 L BNN
+F 1 "10K" H 7950 3170 59  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:0603-RES" H 7850 3100 50  0001 C CNN
+F 3 "" H 7850 3100 50  0001 C CNN
+	1    7850 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:RESISTOR0603-RES R14
+U 1 0 AB7225ED09E2E52
+P 8150 3100
+AR Path="/AB7225ED09E2E52" Ref="R14"  Part="1" 
+AR Path="/5CEA53F7/AB7225ED09E2E52" Ref="R14"  Part="1" 
+F 0 "R14" H 8000 3209 59  0000 L BNN
+F 1 "10K" H 8250 3220 59  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:0603-RES" H 8150 3100 50  0001 C CNN
+F 3 "" H 8150 3100 50  0001 C CNN
+	1    8150 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:RESISTOR0603-RES R15
+U 1 0 4A5479267436F943
+P 8400 3100
+AR Path="/4A5479267436F943" Ref="R15"  Part="1" 
+AR Path="/5CEA53F7/4A5479267436F943" Ref="R15"  Part="1" 
+F 0 "R15" H 8250 3209 59  0000 L BNN
+F 1 "10K" H 8500 3220 59  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:0603-RES" H 8400 3100 50  0001 C CNN
+F 3 "" H 8400 3100 50  0001 C CNN
+	1    8400 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:RESISTOR0603-RES R16
+U 1 0 9112E87320979D20
+P 5900 2750
+AR Path="/9112E87320979D20" Ref="R16"  Part="1" 
+AR Path="/5CEA53F7/9112E87320979D20" Ref="R16"  Part="1" 
+F 0 "R16" H 5750 2809 59  0000 L BNN
+F 1 "10K" H 6000 2820 59  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:0603-RES" H 5900 2750 50  0001 C CNN
+F 3 "" H 5900 2750 50  0001 C CNN
+	1    5900 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:GND #GND16
+U 1 0 8316678299D4D269
+P 6650 4700
+AR Path="/8316678299D4D269" Ref="#GND16"  Part="1" 
+AR Path="/5CEA53F7/8316678299D4D269" Ref="#GND016"  Part="1" 
+F 0 "#GND016" H 6650 4700 50  0001 C CNN
+F 1 "GND" H 6550 4600 59  0000 L BNN
+F 2 "" H 6650 4700 50  0001 C CNN
+F 3 "" H 6650 4700 50  0001 C CNN
+	1    6650 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:V_REG_LM1117SOT223 U2
+U 1 0 B76F957A668B8EFF
+P 4050 11950
+AR Path="/B76F957A668B8EFF" Ref="U2"  Part="1" 
+AR Path="/5CEA53F7/B76F957A668B8EFF" Ref="U2"  Part="1" 
+F 0 "U2" H 4150 11650 70  0000 L BNN
+F 1 "ASM1117-1.2V" H 4150 11550 70  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:SOT223" H 4050 11950 50  0001 C CNN
+F 3 "" H 4050 11950 50  0001 C CNN
+	1    4050 11950
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:GND #GND17
+U 1 0 A9D98BED0A5A0AC8
+P 4050 12550
+AR Path="/A9D98BED0A5A0AC8" Ref="#GND17"  Part="1" 
+AR Path="/5CEA53F7/A9D98BED0A5A0AC8" Ref="#GND017"  Part="1" 
+F 0 "#GND017" H 4050 12550 50  0001 C CNN
+F 1 "GND" H 3950 12450 59  0000 L BNN
+F 2 "" H 4050 12550 50  0001 C CNN
+F 3 "" H 4050 12550 50  0001 C CNN
+	1    4050 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:CAP0603-CAP C20
+U 1 0 8F129109CD3E99B0
+P 4950 12250
+AR Path="/8F129109CD3E99B0" Ref="C20"  Part="1" 
+AR Path="/5CEA53F7/8F129109CD3E99B0" Ref="C20"  Part="1" 
+F 0 "C20" H 5010 12365 59  0000 L BNN
+F 1 "0.1uF" H 5010 12165 59  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:0603-CAP" H 4950 12250 50  0001 C CNN
+F 3 "" H 4950 12250 50  0001 C CNN
+	1    4950 12250
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:GND #GND18
+U 1 0 15FCDF69E0081D19
+P 4950 12550
+AR Path="/15FCDF69E0081D19" Ref="#GND18"  Part="1" 
+AR Path="/5CEA53F7/15FCDF69E0081D19" Ref="#GND018"  Part="1" 
+F 0 "#GND018" H 4950 12550 50  0001 C CNN
+F 1 "GND" H 4850 12450 59  0000 L BNN
+F 2 "" H 4950 12550 50  0001 C CNN
+F 3 "" H 4950 12550 50  0001 C CNN
+	1    4950 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:M161X16_NO_SILK JP5
+U 1 0 B2768A806716FC81
+P 14000 5900
+AR Path="/B2768A806716FC81" Ref="JP5"  Part="1" 
+AR Path="/5CEA53F7/B2768A806716FC81" Ref="JP5"  Part="1" 
+F 0 "JP5" H 14000 6730 59  0000 L BNN
+F 1 "M161X16_NO_SILK" H 14000 4900 59  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:1X16_NO_SILK" H 14000 5900 50  0001 C CNN
+F 3 "" H 14000 5900 50  0001 C CNN
+	1    14000 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:M161X16_NO_SILK JP6
+U 1 0 DD40F71C7F37E81D
+P 15800 6300
+AR Path="/DD40F71C7F37E81D" Ref="JP6"  Part="1" 
+AR Path="/5CEA53F7/DD40F71C7F37E81D" Ref="JP6"  Part="1" 
+F 0 "JP6" H 15800 7130 59  0000 L BNN
+F 1 "M161X16_NO_SILK" H 15800 5300 59  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:1X16_NO_SILK" H 15800 6300 50  0001 C CNN
+F 3 "" H 15800 6300 50  0001 C CNN
+	1    15800 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:RESISTOR0805-RES R3
+U 1 0 23CAB85C9D3B2993
+P 5050 6250
+AR Path="/23CAB85C9D3B2993" Ref="R3"  Part="1" 
+AR Path="/5CEA53F7/23CAB85C9D3B2993" Ref="R3"  Part="1" 
+F 0 "R3" H 4900 6309 59  0000 L BNN
+F 1 "RESISTOR0805-RES" H 4900 6120 59  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:0805" H 5050 6250 50  0001 C CNN
+F 3 "" H 5050 6250 50  0001 C CNN
+	1    5050 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:RESISTOR0805-RES R4
+U 1 0 DF0B5EAF23E52A4A
+P 5050 6050
+AR Path="/DF0B5EAF23E52A4A" Ref="R4"  Part="1" 
+AR Path="/5CEA53F7/DF0B5EAF23E52A4A" Ref="R4"  Part="1" 
+F 0 "R4" H 4900 6109 59  0000 L BNN
+F 1 "RESISTOR0805-RES" H 4900 5920 59  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:0805" H 5050 6050 50  0001 C CNN
+F 3 "" H 5050 6050 50  0001 C CNN
+	1    5050 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:V_REG_LM1117SOT223 U1
+U 1 0 85B1A76D02A771E8
+P 4050 13250
+AR Path="/85B1A76D02A771E8" Ref="U1"  Part="1" 
+AR Path="/5CEA53F7/85B1A76D02A771E8" Ref="U1"  Part="1" 
+F 0 "U1" H 4150 12950 70  0000 L BNN
+F 1 "ASM1117-3.3V" H 4150 12850 70  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:SOT223" H 4050 13250 50  0001 C CNN
+F 3 "" H 4050 13250 50  0001 C CNN
+	1    4050 13250
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:GND #GND1
+U 1 0 6F68935FDB8695AC
+P 4050 13850
+AR Path="/6F68935FDB8695AC" Ref="#GND1"  Part="1" 
+AR Path="/5CEA53F7/6F68935FDB8695AC" Ref="#GND01"  Part="1" 
+F 0 "#GND01" H 4050 13850 50  0001 C CNN
+F 1 "GND" H 3950 13750 59  0000 L BNN
+F 2 "" H 4050 13850 50  0001 C CNN
+F 3 "" H 4050 13850 50  0001 C CNN
+	1    4050 13850
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:CAP0603-CAP C1
+U 1 0 C9E59636F1C90C04
+P 4950 13550
+AR Path="/C9E59636F1C90C04" Ref="C1"  Part="1" 
+AR Path="/5CEA53F7/C9E59636F1C90C04" Ref="C1"  Part="1" 
+F 0 "C1" H 5010 13665 59  0000 L BNN
+F 1 "0.1uF" H 5010 13465 59  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:0603-CAP" H 4950 13550 50  0001 C CNN
+F 3 "" H 4950 13550 50  0001 C CNN
+	1    4950 13550
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:GND #GND2
+U 1 0 350FEA2913A376EC
+P 4950 13850
+AR Path="/350FEA2913A376EC" Ref="#GND2"  Part="1" 
+AR Path="/5CEA53F7/350FEA2913A376EC" Ref="#GND02"  Part="1" 
+F 0 "#GND02" H 4950 13850 50  0001 C CNN
+F 1 "GND" H 4850 13750 59  0000 L BNN
+F 2 "" H 4950 13850 50  0001 C CNN
+F 3 "" H 4950 13850 50  0001 C CNN
+	1    4950 13850
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:M02PTH J6
+U 1 0 9DDCF6EC8E9E0148
+P 2700 13350
+AR Path="/9DDCF6EC8E9E0148" Ref="J6"  Part="1" 
+AR Path="/5CEA53F7/9DDCF6EC8E9E0148" Ref="J6"  Part="1" 
+F 0 "J6" H 2600 13580 59  0000 L BNN
+F 1 "M02PTH" H 2600 13150 59  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:1X02" H 2700 13350 50  0001 C CNN
+F 3 "" H 2700 13350 50  0001 C CNN
+	1    2700 13350
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:GND #GND6
+U 1 0 714A278CA07C0193
+P 3250 13650
+AR Path="/714A278CA07C0193" Ref="#GND6"  Part="1" 
+AR Path="/5CEA53F7/714A278CA07C0193" Ref="#GND06"  Part="1" 
+F 0 "#GND06" H 3250 13650 50  0001 C CNN
+F 1 "GND" H 3150 13550 59  0000 L BNN
+F 2 "" H 3250 13650 50  0001 C CNN
+F 3 "" H 3250 13650 50  0001 C CNN
+	1    3250 13650
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:RESISTOR0805-RES R5
+U 1 0 6BE7FE15076213C8
+P 5100 4200
+AR Path="/6BE7FE15076213C8" Ref="R5"  Part="1" 
+AR Path="/5CEA53F7/6BE7FE15076213C8" Ref="R5"  Part="1" 
+F 0 "R5" H 4900 4259 59  0000 L BNN
+F 1 "0" H 5150 4270 59  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:0805" H 5100 4200 50  0001 C CNN
+F 3 "" H 5100 4200 50  0001 C CNN
+	1    5100 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:DIP-BLACK-ROUND-FEMALE-HEADER-VERT(1P-2.54) J8
+U 1 0 58B51E0369FAD939
+P 15700 7600
+AR Path="/58B51E0369FAD939" Ref="J8"  Part="1" 
+AR Path="/5CEA53F7/58B51E0369FAD939" Ref="J8"  Part="1" 
+F 0 "J8" H 15600 7700 42  0000 L BNN
+F 1 "1p-2.54" H 15600 7450 42  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:1P-65_35MIL" H 15700 7600 50  0001 C CNN
+F 3 "" H 15700 7600 50  0001 C CNN
+	1    15700 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L gtjennings_pcb_121217_1200_release-eagle-import:DIP-BLACK-ROUND-FEMALE-HEADER-VERT(1P-2.54) J9
+U 1 0 67A431546CD7438B
+P 15700 7800
+AR Path="/67A431546CD7438B" Ref="J9"  Part="1" 
+AR Path="/5CEA53F7/67A431546CD7438B" Ref="J9"  Part="1" 
+F 0 "J9" H 15600 7900 42  0000 L BNN
+F 1 "1p-2.54" H 15600 7650 42  0000 L BNN
+F 2 "gtjennings_pcb_121217_1200_release:1P-65_35MIL" H 15700 7800 50  0001 C CNN
+F 3 "" H 15700 7800 50  0001 C CNN
+	1    15700 7800
+	1    0    0    -1  
+$EndComp
+Text Notes 4350 6600 0    42   ~ 0
+For programming Flash - Shunt 1,3 and 2,4 (default)
+Text Notes 4350 6800 0    42   ~ 0
+For programming iCE - Shunt 3,4 and 1,2 
+Wire Notes Line
+	4100 6500 4300 6500
+Wire Notes Line
+	4100 6600 4300 6600
+Wire Notes Line
+	4150 6700 4150 6850
+Wire Notes Line
+	4250 6700 4250 6850
+Wire Notes Line
+	3750 5700 6300 5700
+Wire Notes Line
+	6300 5700 6300 7200
+Wire Notes Line
+	6300 7200 3750 7200
+Wire Notes Line
+	3750 7200 3750 5700
+Text Notes 3800 5500 0    42   ~ 0
+ Remove shunt only for Programming iCE. 
+Text Notes 3800 5650 0    42   ~ 0
+Replace shunt for programming Flash and for normal operation.
+Wire Notes Line
+	700  750  9150 750 
+Wire Notes Line
+	9150 750  9150 8250
+Wire Notes Line
+	9150 8250 700  8250
+Wire Notes Line
+	700  8250 700  750 
+Text Notes 900  1200 0    215  ~ 0
+SPI
+Wire Notes Line
+	700  9100 9150 9100
+Wire Notes Line
+	9150 9100 9150 14400
+Wire Notes Line
+	9150 14400 700  14400
+Wire Notes Line
+	700  14400 700  9150
+Text Notes 800  9500 0    215  ~ 0
+REGULATOR CONNECTION
+Text Notes 12150 2750 0    215  ~ 0
+PMOD AND I/O PINS
+Wire Notes Line
+	12000 2400 16550 2400
+Wire Notes Line
+	16550 2400 16550 10600
+Wire Notes Line
+	16550 10600 12000 10600
+Wire Notes Line
+	12000 10600 12000 2450
+Wire Notes Line
+	4850 6050 4850 6100
+Wire Notes Line
+	4850 6250 4850 6200
+Wire Notes Line
+	4850 6100 4830 6120
+Wire Notes Line
+	4830 6120 4865 6135
+Wire Notes Line
+	4865 6135 4830 6155
+Wire Notes Line
+	4830 6155 4865 6170
+Wire Notes Line
+	4865 6170 4830 6190
+Wire Notes Line
+	4830 6190 4850 6200
+Wire Notes Line
+	5250 6050 5250 6100
+Wire Notes Line
+	5250 6250 5250 6200
+Wire Notes Line
+	5250 6100 5230 6120
+Wire Notes Line
+	5230 6120 5265 6135
+Wire Notes Line
+	5265 6135 5230 6155
+Wire Notes Line
+	5230 6155 5265 6170
+Wire Notes Line
+	5265 6170 5230 6190
+Wire Notes Line
+	5230 6190 5250 6200
+$EndSCHEMATC
